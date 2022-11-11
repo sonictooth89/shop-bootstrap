@@ -1,0 +1,53 @@
+{
+  "name": "moveslider",
+  "version": "1.0.0",
+  "main": "./js/app.js",
+  "scripts": {
+    "start": "webpack-dev-server --config webpack.config.js",
+    "prod": "webpack --config webpack.config.prod.js",
+    "dev": "webpack --config webpack.config.js",
+    "dev:watch": "npm run-script dev -- --watch",
+    "prod-watch": "webpack --config webpack.config.prod.js --watch"
+  },
+  "keywords": [
+    "webpack",
+    "boilerplate",
+    "hmr",
+    "sass"
+  ],
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "devDependencies": {
+    "@babel/core": "7.18.9",
+    "babel-cli": "6.26.0",
+    "babel-loader": "8.2.5",
+    "babel-plugin-transform-class-properties": "6.24.1",
+    "babel-plugin-transform-es2015-arrow-functions": "6.22.0",
+    "babel-plugin-transform-es2015-classes": "6.24.1",
+    "babel-preset-env": "1.7.0",
+    "cross-env": "7.0.3",
+    "css-hot-loader": "1.4.4",
+    "css-loader": "6.7.1",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "5.5.0",
+    "mini-css-extract-plugin": "2.6.1",
+    "node-sass": "7.0.1",
+    "sass-loader": "13.0.2",
+    "style-loader": "3.3.1",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.9.3"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sonictooth89/galery-API/issues"
+  },
+  "homepage": "https://github.com/sonictooth89/galery-API#readme",
+  "description": "",
+  "dependencies": {
+    "bootstrap": "^5.2.2"
+  }
+}
